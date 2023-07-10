@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.div-container{
+    background-color: aqua;
+    width: 1920px;
+height: 850px;
+background-color: rgba(229, 84, 115, 0.10);
+}
