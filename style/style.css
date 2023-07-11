@@ -238,7 +238,40 @@ body{
     padding: 20px 35px 20px 35px;
     margin-right: 10px;
 }
-
-
-
 /* subcription section is now End */
+
+/* footer is Start */
+.footer{
+    width: 100%;
+    background: #111010;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+.footer-container{
+    padding: 100px;
+}
+.footer-container h1{
+    font-size:36px;
+    font-weight: 800;
+    
+}
+#footer-p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0px 32px 0px;
+}
+.footer-p2{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+/* footer is End */
