@@ -117,11 +117,10 @@ body{
     display: flex;
     justify-content: center;
     color: #272727;
-;
-font-family: Lato;
-font-size: 24px;
-font-weight: 700;
-margin-top: 32px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 32px;
 
 }
 
