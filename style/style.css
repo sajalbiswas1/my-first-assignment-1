@@ -15,8 +15,45 @@ body{
     font-weight: 700;
     padding: 16px 35px 16px 35px;
     border: none;
+    margin-bottom: 25px;
 }
 
+
+/* nav style Start */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(5, 151, 160, 0.15);
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    padding-left: 150px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+nav a:hover{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+/* nav style End */
 
 /* Header style here */
 .header{
