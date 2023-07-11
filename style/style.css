@@ -123,6 +123,23 @@ body{
     margin-top: 32px;
 
 }
+/* Flower section is End now */
+
+/* service section start (optional) */
+
+.service-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    margin-top: 110px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+   padding: 70px 0px 70px 0px;
+}
+/* service section End (optional) */
 
 
 /* Flower Offer section is start */
