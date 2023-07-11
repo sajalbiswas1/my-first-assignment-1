@@ -19,6 +19,7 @@ body{
 /* Header style here */
 .header{
     display: flex;
+    justify-content: center;
     gap: 120px;
     align-items: center;
     width: 100%;
@@ -57,17 +58,27 @@ body{
 .flower-title{
     text-align: center;
     margin-top: 160px;
+    justify-content: center;
 }
 .flower-title h1{
     font-size:36px;
     font-weight: 800;
     margin-bottom: 24px;
+    color: #272727;
 }
+.flower-title p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 .flower-list{
     display: flex;
     gap: 24px;
     width: 80%;
     margin: auto;
+    justify-content: center;
     margin-top: 53px;
 }
 .div-img-1{
@@ -75,7 +86,6 @@ body{
     height: 470px;
     background: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-    position: relative;
 }
 .div-img-2{
     width: 385px;
@@ -90,8 +100,66 @@ body{
     border-radius: 300px 300px 0px 0px;
 }
 .flower-list .image-1{
+    height: 370px;
+    width: 270px;
+    margin: 100px 30px 0 50px;
+}
+.flower-list .image-2{
     
-    position: absolute;
+    margin: 80px 30px 0 30px;
+}
+.flower-list .image-3{
     
+    margin: 0px 0px 0 38px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    color: #272727;
+;
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+margin-top: 32px;
 
 }
+
+
+/* Flower Offer section is start */
+.discount-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 186px;
+    height: 500px;
+    margin-top: 110px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    
+}
+.flower-offer-title{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.span-off{
+   color: #E55473;
+}
+
+.flower-offer-title h1{
+    color: #272727;
+    font-size:36px;
+    font-weight: 800;
+    
+}
+
+.flower-offer-title p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+/* Flower Offer section is End */
