@@ -196,6 +196,49 @@ body{
 .instagram-flower-container .instagram-img{
     width: 290px;
     height: 340px;
+    margin-bottom: 110px;
+    
     
 }
 /* Instagram flower section is End */
+
+/* subcription section is now start */
+.subscrib-section{
+    height: 300px;
+    width: 77%;
+    margin: auto;
+}
+.subscrib-container{
+    
+    text-align: center;
+    padding: 100px 0px;
+    background-image: url("../image/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.subscrib-container h1{
+    font-size:36px;
+    font-weight: 800;
+    color: #272727;
+}
+.subscrib-container p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 24px;
+
+}
+.input-fild{
+    margin-top: 20px;
+}
+.input{
+    width: 500px;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 35px 20px 35px;
+    margin-right: 10px;
+}
+
+
+
+/* subcription section is now End */
